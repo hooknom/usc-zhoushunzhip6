@@ -1,12 +1,12 @@
 {
-  "name": "vue6",
-  "version": "1.0.0",
+  "name": "exp-6",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "deploy": "gh-pages -d dist", 
-    "build": "vue-cli-service build"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "homepage": "https://huan-m-ls.github.io/vue6", 
-},
   "dependencies": {
     "core-js": "^3.8.3",
     "lodash.uniqueid": "^4.0.1",
@@ -20,7 +20,6 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "gh-pages": "^6.2.0",
     "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {
